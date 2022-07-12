@@ -29,13 +29,13 @@ public class Main {
         Player2 playerTwo = new Player2("Abhishek", "Mjolnir", 450, true);
 
 
-        playerOne.damageByGunOne();
-        playerOne.damageByGunTwo();
-        playerOne.damageByGunTwo();
+        //playerOne.damageByGunOne();
+        //playerOne.damageByGunTwo();
+        //playerOne.damageByGunTwo();
 
 
-        //playerTwo.damageByGunOne();
-        //playerTwo.damageByGunOne();
+        playerTwo.damageByGunOne();
+        playerTwo.damageByGunOne();
 
     }
 }
