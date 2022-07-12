@@ -24,7 +24,10 @@ If we press on heal :
 
 public class Main {
     public static void main(String[] args) {
-        //
-        Player playerOne = new Player();
+        // Creating objects of different the players
+        Player1 playerOne = new Player1("Rohan", "Excalibur", 500);
+        Player2 playerTwo = new Player2("Abhishek", "Mjolnir", 450, true);
+
+        System.out.println();
     }
 }
