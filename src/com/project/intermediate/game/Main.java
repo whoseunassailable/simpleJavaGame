@@ -28,6 +28,14 @@ public class Main {
         Player1 playerOne = new Player1("Rohan", "Excalibur", 500);
         Player2 playerTwo = new Player2("Abhishek", "Mjolnir", 450, true);
 
-        System.out.println();
+
+        playerOne.damageByGunOne();
+        playerOne.damageByGunTwo();
+        playerOne.damageByGunTwo();
+
+
+        //playerTwo.damageByGunOne();
+        //playerTwo.damageByGunOne();
+
     }
 }
