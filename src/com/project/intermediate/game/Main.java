@@ -26,15 +26,19 @@ public class Main {
     public static void main(String[] args) {
         // Creating objects of different the players
         Player1 playerOne = new Player1("Rohan", "Excalibur", 500);
-        Player2 playerTwo = new Player2("Abhishek", "Mjolnir", 450, true);
+        Player2 playerTwo = new Player2("Abhishek", "Mjolnir", 450, false);
 
 
-        //playerOne.damageByGunOne();
-        //playerOne.damageByGunTwo();
-        //playerOne.damageByGunTwo();
+        playerOne.damageByGunTwo();
+        playerOne.damageByGunOne();
+        playerOne.heal();
+        playerOne.damageByGunOne();
 
+        System.out.println();
 
-        playerTwo.damageByGunOne();
+        playerTwo.damageByGunTwo();
+        playerTwo.damageByGunTwo();
+        playerTwo.heal();
         playerTwo.damageByGunOne();
 
     }
