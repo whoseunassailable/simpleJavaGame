@@ -11,7 +11,7 @@ public class Player1 {
         this.health = health;
     }
 
-    private void damageByGunOne() {
+    public void damageByGunOne() {
         this.health -= 30;
         if (this.health <= 0) {
             this.health = 0;
@@ -24,7 +24,7 @@ public class Player1 {
         }
     }
 
-    private void damageByGunTwo() {
+    public void damageByGunTwo() {
         this.health -= 50;
         if (this.health <= 0) {
             this.health = 0;
